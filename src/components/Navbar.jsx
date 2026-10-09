@@ -22,7 +22,7 @@ export default function Navbar({ lang, setLang, data }) {
                 {data.personalInfo.name}
               </span>
               <span className="block text-xs text-[#57534E] font-medium tracking-wide">
-                {lang === 'en' ? 'Corporate Financial Consultant' : 'वरिष्ठ वित्तीय सलाहकार'}
+                {lang === 'en' ? 'Corporate Financial Consultant' : 'वरिष्ठ वित्तीय कंसल्टेंट'}
               </span>
             </div>
           </a>
@@ -52,18 +52,18 @@ export default function Navbar({ lang, setLang, data }) {
               <span>{lang === 'en' ? 'हिंदी (HI)' : 'English (EN)'}</span>
             </button>
 
-            {/* Direct Advisory Mandate Inquiry Button */}
+            {/* Direct Consultancy Mandate Inquiry Button */}
             <a
               href="#inquiry"
               className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#B45309] text-white text-xs font-bold hover:bg-[#92400E] transition-colors shadow-md"
             >
               <Send className="w-3.5 h-3.5" />
-              <span>{lang === 'en' ? 'Inquire Mandate' : 'परामर्श पूछताछ'}</span>
+              <span>{lang === 'en' ? 'Inquire Mandate' : 'कंसल्टेंसी पूछताछ'}</span>
             </a>
 
             {/* Executive CV Button */}
             <a
-              href="cv/Vishwanath_Sharma_CV.pdf"
+              href="cv/Vishwanath_Sharma_CV.docx"
               download
               className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-[#1C1917] text-[#F5F2EB] text-xs font-medium hover:bg-[#B45309] transition-colors shadow-sm"
             >
@@ -111,10 +111,10 @@ export default function Navbar({ lang, setLang, data }) {
               className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-[#B45309] text-white text-sm font-bold shadow-md"
             >
               <Send className="w-4 h-4" />
-              <span>{lang === 'en' ? 'Inquire Mandate Form' : 'परामर्श पूछताछ फॉर्म'}</span>
+              <span>{lang === 'en' ? 'Inquire Mandate Form' : 'कंसल्टेंसी पूछताछ फॉर्म'}</span>
             </a>
             <a
-              href="cv/Vishwanath_Sharma_CV.pdf"
+              href="cv/Vishwanath_Sharma_CV.docx"
               download
               className="flex items-center justify-center gap-2 w-full py-2.5 rounded-lg bg-[#1C1917] text-[#F5F2EB] text-sm font-medium"
             >

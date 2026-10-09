@@ -2,21 +2,21 @@ export const portfolioData = {
   en: {
     personalInfo: {
       name: "Vishwanath Sharma",
-      title: "Senior Corporate Financial Consultant & Investment Advisor",
-      tagline: "25+ Years of Institutional Banking Leadership & Corporate Advisory Excellence",
+      title: "Senior Corporate Financial & Investment Consultant",
+      tagline: "25+ Years of Institutional Banking Leadership & Corporate Financial Consultancy Excellence",
       photo: "profile.jpg",
       boardroomPhoto: "boardroom.jpg",
       bioParagraphs: [
         "I am a Senior Corporate Financial Consultant and former Banking Regional Leader with over 25 years of institutional executive experience. Throughout my career, I have held senior leadership positions including Regional Head, Cluster Head, and Assistant Vice President across premier institutions such as IndusInd Bank, Kotak Mahindra Bank, HDFC Bank, ICICI Bank, YES Bank, and ESAF Small Finance Bank.",
-        "My advisory practice bridges corporate financial strategy with institutional credit requirements. I specialize in high-value Debt Syndications, bankable Techno-Economic Viability (TEV) Studies, Business Valuations under regulatory frameworks, NCLT and IBC Stressed Asset Resolutions, and Financial Audits.",
-        "Having managed multi-hundred crore balance sheets (including a ₹500+ Cr branch in Surat ranked #1 PAN India in Fee Revenue) and led sales teams of over 140 professionals in Mumbai, I provide direct, battle-tested principal advisory to CFOs, corporate promoters, and institutional investors."
+        "My consultancy practice bridges corporate financial strategy with institutional credit requirements. I specialize in high-value Debt Syndications, bankable Techno-Economic Viability (TEV) Studies, Business Valuations under regulatory frameworks, NCLT and IBC Stressed Asset Resolutions, and Financial Audits.",
+        "Having managed multi-hundred crore balance sheets (including a ₹500+ Cr branch in Surat ranked #1 PAN India in Fee Revenue) and led sales teams of over 140 professionals in Mumbai, I provide direct, battle-tested principal consultancy to CFOs, corporate promoters, and institutional investors."
       ],
       executiveStory: {
         title: "Strategic Financial Solutions Built on Institutional Rigor",
         quote: "Capital is easy to promise, but bankable debt syndication requires aligning project reality with institutional risk frameworks.",
         paragraphs: [
           "Over two decades in Indian banking taught me that most transaction failures stem from a breakdown in communication between corporate promoters and institutional credit committees. Promoters focus on commercial potential, while lenders require empirical sensitivity modeling and regulatory compliance.",
-          "I established my independent advisory practice to solve this disconnect. Whether securing project finance for an infrastructure enterprise or formulating an out-of-court restructuring plan under RBI guidelines, I manage the mandate directly from initial diagnostic to final execution."
+          "I established my independent consultancy practice to solve this disconnect. Whether securing project finance for an infrastructure enterprise or formulating an out-of-court restructuring plan under RBI guidelines, I manage the mandate directly from initial diagnostic to final execution."
         ]
       },
       contact: {
@@ -44,7 +44,7 @@ export const portfolioData = {
         "Bank on Me - Advanced Banking & Credit Diagnostics"
       ],
       keyMetrics: [
-        { label: "Banking & Advisory Experience", value: "25+", suffix: "Years" },
+        { label: "Banking & Consultancy Experience", value: "25+", suffix: "Years" },
         { label: "Branch Balance Sheet Managed", value: "₹500+", suffix: "Cr+" },
         { label: "PAN India Rank in Fee Revenue", value: "#1", suffix: "Rank" },
         { label: "Regional Team Size Led", value: "140+", suffix: "Professionals" }
@@ -72,27 +72,27 @@ export const portfolioData = {
           "Working Capital Facilities (Cash Credit, Overdraft, LC, Bank Guarantees)",
           "External Commercial Borrowings (ECB) & Cross-Border Buyer's Credit",
           "Equipment Finance, Factoring, & Asset-Backed Lending",
-          "Leveraged Buyouts (LBOs) & Credit Rating Advisory"
+          "Leveraged Buyouts (LBOs) & Credit Rating Consultancy"
         ],
         targetClients: "Mid-Market Corporates, Infrastructure Developers, Manufacturing Enterprises, PE Portfolio Companies.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "equity-mna",
-        title: "Equity Advisory & M&A Solutions",
+        title: "Equity Consultancy & M&A Solutions",
         category: "Capital Markets",
         iconName: "PieChart",
-        shortDescription: "I advise growth-stage companies and corporate promoters on Private Equity fundraising, M&A transactions, takeovers, buybacks, and public market listings.",
+        shortDescription: "I consult growth-stage companies and corporate promoters on Private Equity fundraising, M&A transactions, takeovers, buybacks, and public market listings.",
         fullDescription: "I guide business founders through the entire equity capital lifecycle including investor presentation structuring, financial valuation modeling, term sheet negotiations, and strategic M&A execution.",
         scope: [
           "Private Equity (PE) & Venture Capital (VC) Growth Capital Raising",
           "Buy-side & Sell-side Mergers & Acquisitions (M&A) Execution",
-          "Takeovers, Buyback Offers, & Stock Exchange De-Listing Advisory",
+          "Takeovers, Buyback Offers, & Stock Exchange De-Listing Consultancy",
           "IPO, FPO, Rights Issue, & Qualified Institutional Placements (QIP)",
           "Term Sheet Negotiation & Investor Readiness Structuring"
         ],
         targetClients: "High-Growth Startups, Enterprise Promoters, PE Investors, Corporate Buyers.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "valuation-services",
@@ -109,12 +109,12 @@ export const portfolioData = {
           "Brand & Intangible Asset Valuation"
         ],
         targetClients: "CFOs, Tax Directors, PE/VC Investors, Auditors, Regulatory Bodies.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "tev-feasibility",
         title: "Techno-Economic Viability (TEV) & Feasibility",
-        category: "Lender Advisory",
+        category: "Lender Consultancy",
         iconName: "FileCheck",
         shortDescription: "I author bankable TEV study reports and conduct technical risk assessments required by consortium lenders prior to multi-crore credit sanctions.",
         fullDescription: "I evaluate technical parameters, manufacturing feasibility, market demand elasticity, and sensitivity cash flow models to deliver TEV reports that satisfy bank credit committees.",
@@ -126,24 +126,24 @@ export const portfolioData = {
           "Detailed Project Report (DPR) Preparation for Bank Approvals"
         ],
         targetClients: "Commercial Banks, Consortium Lenders, Project Promoters, Infrastructure Funds.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "stressed-assets-ibc",
         title: "Stressed Assets & Insolvency (IBC)",
-        category: "Turnaround Advisory",
+        category: "Turnaround Consultancy",
         iconName: "ShieldAlert",
         shortDescription: "I specialize in out-of-court debt restructuring, One-Time Settlement (OTS) structuring, and NCLT resolution plan formulation under the IBC Code.",
         fullDescription: "I handhold corporate promoters and Resolution Professionals (RPs) through complex debt turnarounds under the Insolvency and Bankruptcy Code (IBC) and RBI prudential restructuring guidelines.",
         scope: [
-          "Corporate Insolvency Resolution Process (CIRP) Advisory",
+          "Corporate Insolvency Resolution Process (CIRP) Consultancy",
           "Formulation & Submission of Bankable Resolution Plans",
           "Out-of-Court Debt Restructuring & One-Time Settlement (OTS)",
           "Promoter Handholding with Minimal Franchise & Financial Risk Exposure",
-          "Liquidation Management & Stressed Asset Buying Advisory"
+          "Liquidation Management & Stressed Asset Buying Consultancy"
         ],
         targetClients: "Stressed Enterprises, Resolution Professionals (RPs), ARC Companies, Lenders.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "corporate-training",
@@ -160,7 +160,7 @@ export const portfolioData = {
           "1-on-1 Executive Coaching for CFOs and Finance Controllers"
         ],
         targetClients: "Banks, NBFCs, Corporate Finance Teams, Industry Associations.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "audit-due-diligence",
@@ -177,7 +177,7 @@ export const portfolioData = {
           "Compliance Verification & KYC Validation for Institutional Lenders"
         ],
         targetClients: "Acquirers, PE Funds, Corporate Boards, Financial Regulators.",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       }
     ],
 
@@ -291,21 +291,21 @@ export const portfolioData = {
   hi: {
     personalInfo: {
       name: "विश्वनाथ शर्मा",
-      title: "वरिष्ठ कॉर्पोरेट वित्तीय सलाहकार एवं निवेश विशेषज्ञ",
-      tagline: "25+ वर्षों का बैंकिंग नेतृत्व एवं कॉर्पोरेट परामर्श अनुभव",
+      title: "वरिष्ठ कॉर्पोरेट वित्तीय एवं निवेश कंसल्टेंट",
+      tagline: "25+ वर्षों का बैंकिंग नेतृत्व एवं कॉर्पोरेट वित्तीय कंसल्टेंसी अनुभव",
       photo: "profile.jpg",
       boardroomPhoto: "boardroom.jpg",
       bioParagraphs: [
-        "मैं एक वरिष्ठ कॉर्पोरेट वित्तीय सलाहकार और पूर्व बैंकिंग क्षेत्रीय प्रमुख हूँ, जिसके पास 25 से अधिक वर्षों का संस्थागत अनुभव है। अपने करियर के दौरान, मैंने इंडसइंड बैंक, कोटक महिंद्रा बैंक, एचडीएफसी बैंक, आईसीआईसीआई बैंक, यस बैंक और एएसएएफ स्मॉल फाइनेंस बैंक जैसे प्रमुख संस्थानों में क्षेत्रीय प्रमुख, क्लस्टर प्रमुख और सहायक उपाध्यक्ष जैसे वरिष्ठ पदों पर कार्य किया है।",
-        "मेरा परामर्श कार्य कॉर्पोरेट वित्तीय रणनीति और संस्थागत क्रेडिट आवश्यकताओं के बीच संतुलन स्थापित करता है। मैं उच्च-मूल्य वाले ऋण सिंडिकेशन, बैंक योग्य तकनीकी-आर्थिक व्यवहार्यता (TEV) अध्ययन, नियामक मूल्यांकन, NCLT एवं IBC तनावग्रस्त परिसंपत्ति समाधान और वित्तीय ऑडिट में विशेषज्ञता रखता हूँ।",
-        "सूरत में ₹500+ करोड़ के शाखा बैलेंस शीट का प्रबंधन करने (जो शुल्क राजस्व में पूरे भारत में नंबर 1 पर रहा) और मुंबई में 140 से अधिक पेशेवरों की टीम का नेतृत्व करने के अनुभव के साथ, मैं सीएफओ, कॉर्पोरेट प्रमोटरों और संस्थागत निवेशकों को प्रत्यक्ष परामर्श प्रदान करता हूँ।"
+        "मैं एक वरिष्ठ कॉर्पोरेट वित्तीय कंसल्टेंट और पूर्व बैंकिंग क्षेत्रीय प्रमुख हूँ, जिसके पास 25 से अधिक वर्षों का संस्थागत अनुभव है। अपने करियर के दौरान, मैंने इंडसइंड बैंक, कोटक महिंद्रा बैंक, एचडीएफसी बैंक, आईसीआईसीआई बैंक, यस बैंक और एएसएएफ स्मॉल फाइनेंस बैंक जैसे प्रमुख संस्थानों में क्षेत्रीय प्रमुख, क्लस्टर प्रमुख और सहायक उपाध्यक्ष जैसे वरिष्ठ पदों पर कार्य किया है।",
+        "मेरा कंसल्टेंसी कार्य कॉर्पोरेट वित्तीय रणनीति और संस्थागत क्रेडिट आवश्यकताओं के बीच संतुलन स्थापित करता है। मैं उच्च-मूल्य वाले ऋण सिंडिकेशन, बैंक योग्य तकनीकी-आर्थिक व्यवहार्यता (TEV) अध्ययन, नियामक मूल्यांकन, NCLT एवं IBC तनावग्रस्त परिसंपत्ति समाधान और वित्तीय ऑडिट में विशेषज्ञता रखता हूँ।",
+        "सूरत में ₹500+ करोड़ के शाखा बैलेंस शीट का प्रबंधन करने (जो शुल्क राजस्व में पूरे भारत में नंबर 1 पर रहा) और मुंबई में 140 से अधिक पेशेवरों की टीम का नेतृत्व करने के अनुभव के साथ, मैं सीएफओ, कॉर्पोरेट प्रमोटरों और संस्थागत निवेशकों को प्रत्यक्ष कंसल्टेंसी प्रदान करता हूँ।"
       ],
       executiveStory: {
         title: "संस्थागत अनुशासन पर आधारित रणनीतिक वित्तीय समाधान",
         quote: "पूंजी का वादा करना आसान है, लेकिन बैंक योग्य ऋण सिंडिकेशन के लिए परियोजना की वास्तविकता को संस्थागत जोखिम ढांचे के साथ जोड़ना आवश्यक है।",
         paragraphs: [
           "भारतीय बैंकिंग में दो दशकों से अधिक के अनुभव ने मुझे सिखाया कि अधिकांश सौदों की विफलता कॉर्पोरेट प्रमोटरों और संस्थागत क्रेडिट समितियों के बीच संचार की कमी के कारण होती है। प्रमोटर वाणिज्यिक क्षमता पर ध्यान केंद्रित करते हैं, जबकि ऋणदाताओं को डेटा-आधारित संवेदनशीलता मॉडल और नियामक अनुपालन की आवश्यकता होती है।",
-          "मैंने इस अंतर को दूर करने के लिए अपनी स्वतंत्र परामर्श अभ्यास की स्थापना की। चाहे किसी बुनियादी ढांचा उद्यम के लिए परियोजना वित्त सुरक्षित करना हो या आरबीआई दिशानिर्देशों के तहत अदालत से बाहर पुनर्गठन योजना तैयार करना हो, मैं प्रारंभिक निदान से लेकर अंतिम निष्पादन तक पूरे जनादेश का प्रबंधन स्वयं करता हूँ।"
+          "मैंने इस अंतर को दूर करने के लिए अपनी स्वतंत्र कंसल्टेंसी अभ्यास की स्थापना की। चाहे किसी बुनियादी ढांचा उद्यम के लिए परियोजना वित्त सुरक्षित करना हो या आरबीआई दिशानिर्देशों के तहत अदालत से बाहर पुनर्गठन योजना तैयार करना हो, मैं प्रारंभिक निदान से लेकर अंतिम निष्पादन तक पूरे जनादेश का प्रबंधन स्वयं करता हूँ।"
         ]
       },
       contact: {
@@ -333,7 +333,7 @@ export const portfolioData = {
         "बैंक ऑन मी - उन्नत बैंकिंग एवं क्रेडिट निदान"
       ],
       keyMetrics: [
-        { label: "बैंकिंग एवं परामर्श अनुभव", value: "25+", suffix: "वर्ष" },
+        { label: "बैंकिंग एवं कंसल्टेंसी अनुभव", value: "25+", suffix: "वर्ष" },
         { label: "प्रबंधित शाखा बैलेंस शीट", value: "₹500+", suffix: "करोड़+" },
         { label: "शुल्क राजस्व में अखिल भारतीय रैंक", value: "#1", suffix: "रैंक" },
         { label: "नेतृत्व वाली क्षेत्रीय टीम का आकार", value: "140+", suffix: "पेशेवर" }
@@ -361,27 +361,27 @@ export const portfolioData = {
           "कार्यशील पूंजी सुविधाएं (कैश क्रेडिट, ओवरड्राफ्ट, एलसी, बैंक गारंटी)",
           "बाहरी वाणिज्यिक उधार (ECB) और सीमा पार खरीदार क्रेडिट",
           "उपकरण वित्त, फैक्टरिंग और परिसंपत्ति-आधारित उधार",
-          "लीवरेज्ड बायआउट्स (LBOs) एवं क्रेडिट रेटिंग परामर्श"
+          "लीवरेज्ड बायआउट्स (LBOs) एवं क्रेडिट रेटिंग कंसल्टेंसी"
         ],
         targetClients: "मध्य-बाजार कॉर्पोरेट्स, इंफ्रास्ट्रक्चर डेवलपर्स, विनिर्माण उद्यम, पीई पोर्टफोलियो कंपनियां।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "equity-mna",
-        title: "इक्विटी सलाहकार एवं एम एंड ए (Equity & M&A)",
+        title: "इक्विटी कंसल्टेंसी एवं एम एंड ए (Equity & M&A)",
         category: "पूंजी बाजार",
         iconName: "PieChart",
-        shortDescription: "मैं विकास-चरण की कंपनियों और प्रमोटरों को प्राइवेट इक्विटी फंड जुटाने, विलय एवं अधिग्रहण सौदों और सार्वजनिक बाजार सूचियों पर सलाह देता हूँ।",
+        shortDescription: "मैं विकास-चरण की कंपनियों और प्रमोटरों को प्राइवेट इक्विटी फंड जुटाने, विलय एवं अधिग्रहण सौदों और सार्वजनिक बाजार सूचियों पर कंसल्टेंसी देता हूँ।",
         fullDescription: "मैं व्यवसाय संस्थापकों को इक्विटी पूंजी जीवन चक्र के दौरान निवेशक प्रस्तुति संरचना, वित्तीय मूल्यांकन मॉडलिंग और रणनीतिक एम एंड ए निष्पादन में मार्गदर्शन करता हूँ।",
         scope: [
           "प्राइवेट इक्विटी (PE) और वेंचर कैपिटल (VC) विकास पूंजी जुटाना",
           "खरीद-पक्ष एवं बिक्री-पक्ष विलय और अधिग्रहण (M&A) निष्पादन",
-          "अधिग्रहण, बायबैक ऑफर और स्टॉक एक्सचेंज डी-लिस्टिंग परामर्श",
+          "अधिग्रहण, बायबैक ऑफर और स्टॉक एक्सचेंज डी-लिस्टिंग कंसल्टेंसी",
           "आईपीओ, एफपीओ, राइट्स इश्यू और योग्य संस्थागत प्लेसमेंट (QIP)",
           "टर्म शीट बातचीत और निवेशक तत्परता संरचना"
         ],
         targetClients: "उच्च-विकास वाले स्टार्टअप, उद्यम प्रमोटर, पीई निवेशक, कॉर्पोरेट खरीदार।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "valuation-services",
@@ -398,12 +398,12 @@ export const portfolioData = {
           "ब्रांड और अमूर्त परिसंपत्ति मूल्यांकन"
         ],
         targetClients: "सीएफओ, टैक्स निदेशक, पीई/वीसी निवेशक, लेखा परीक्षक, नियामक निकाय।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "tev-feasibility",
         title: "तकनीकी-आर्थिक व्यवहार्यता (TEV Studies)",
-        category: "ऋणदाता परामर्श",
+        category: "ऋणदाता कंसल्टेंसी",
         iconName: "FileCheck",
         shortDescription: "मैं बैंक योग्य TEV अध्ययन रिपोर्ट लिखता हूँ और बहु-करोड़ क्रेडिट स्वीकृतियों से पहले बैंक संघों द्वारा आवश्यक तकनीकी जोखिम मूल्यांकन करता हूँ।",
         fullDescription: "मैं तकनीकी मापदंडों, विनिर्माण व्यवहार्यता, बाजार मांग लोच और संवेदनशीलता नकद प्रवाह मॉडल का मूल्यांकन करता हूँ जो बैंक क्रेडिट समितियों को संतुष्ट करते हैं।",
@@ -415,24 +415,24 @@ export const portfolioData = {
           "बैंक स्वीकृतियों के लिए विस्तृत परियोजना रिपोर्ट (DPR) की तैयारी"
         ],
         targetClients: "वाणिज्यिक बैंक, कंसोर्टियम ऋणदाता, परियोजना प्रमोटर, इंफ्रास्ट्रक्चर फंड।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "stressed-assets-ibc",
-        title: "तनावग्रस्त परिसंपत्तियां एवं दिवाला (IBC Advisory)",
-        category: "टर्नअराउंड परामर्श",
+        title: "तनावग्रस्त परिसंपत्तियां एवं दिवाला (IBC Consultancy)",
+        category: "टर्नअराउंड कंसल्टेंसी",
         iconName: "ShieldAlert",
         shortDescription: "मैं आईबीसी कोड के तहत अदालत से बाहर ऋण पुनर्गठन, एकमुश्त निपटान (OTS) संरचना और एनसीएलटी संकल्प योजना तैयार करने में विशेषज्ञता रखता हूँ।",
         fullDescription: "मैं दिवाला और दिवालियापन संहिता (IBC) और आरबीआई विवेकपूर्ण पुनर्गठन दिशानिर्देशों के तहत जटिल ऋण पुनरुद्धार के माध्यम से प्रमोटरों का मार्गदर्शन करता हूँ।",
         scope: [
-          "कॉर्पोरेट दिवाला समाधान प्रक्रिया (CIRP) परामर्श",
+          "कॉर्पोरेट दिवाला समाधान प्रक्रिया (CIRP) कंसल्टेंसी",
           "बैंक योग्य समाधान योजनाओं का निर्माण एवं प्रस्तुति",
           "अदालत से बाहर ऋण पुनर्गठन एवं एकमुश्त निपटान (OTS)",
           "न्यूनतम वित्तीय जोखिम जोखिम के साथ प्रमोटर सहायता",
-          "समापन प्रबंधन एवं तनावग्रस्त परिसंपत्ति खरीद परामर्श"
+          "समापन प्रबंधन एवं तनावग्रस्त परिसंपत्ति खरीद कंसल्टेंसी"
         ],
         targetClients: "तनावग्रस्त उद्यम, समाधान पेशेवर (RPs), एआरसी कंपनियां, ऋणदाता।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "corporate-training",
@@ -449,7 +449,7 @@ export const portfolioData = {
           "सीएफओ और वित्त नियंत्रकों के लिए व्यक्तिगत कार्यकारी कोचिंग"
         ],
         targetClients: "बैंक, एनबीएफसी, कॉर्पोरेट वित्त टीमें, उद्योग संघ।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       },
       {
         id: "audit-due-diligence",
@@ -466,7 +466,7 @@ export const portfolioData = {
           "संस्थागत ऋणदाताओं के लिए अनुपालन सत्यापन एवं केवाईसी सत्यापन"
         ],
         targetClients: "अधिग्रहणकर्ता, पीई फंड, कॉर्पोरेट बोर्ड, वित्तीय नियामक।",
-        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
       }
     ],
 

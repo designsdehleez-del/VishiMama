@@ -6,19 +6,19 @@ export default function Downloads({ data, lang }) {
     {
       title: lang === 'en' ? 'Vishwanath Sharma - Executive Curriculum Vitae (CV)' : 'विश्वनाथ शर्मा - कार्यकारी बायोडाटा (CV)',
       description: lang === 'en'
-        ? 'Comprehensive executive profile detailing 25+ years of banking leadership, branch balance sheet achievements, regional roles, and advisory scope.'
-        : '25+ वर्षों का बैंकिंग नेतृत्व, शाखा बैलेंस शीट उपलब्धियां और परामर्श अनुभव विवरण।',
-      fileSize: 'PDF • Executive Brief',
-      path: 'cv/Vishwanath_Sharma_CV.pdf',
+        ? 'Comprehensive executive profile detailing 25+ years of banking leadership, branch balance sheet achievements, regional roles, and consultancy scope.'
+        : '25+ वर्षों का बैंकिंग नेतृत्व, शाखा बैलेंस शीट उपलब्धियां और कंसल्टेंसी अनुभव विवरण।',
+      fileSize: 'DOCX / PDF • Executive Brief',
+      path: 'cv/Vishwanath_Sharma_CV.docx',
       icon: FileText
     },
     {
-      title: lang === 'en' ? 'Corporate Advisory Services Capability Deck' : 'कॉर्पोरेट सलाहकारी सेवा कैपेबिलिटी डेक',
+      title: lang === 'en' ? 'Corporate Financial Consultancy Services Overview' : 'कॉर्पोरेट वित्तीय कंसल्टेंसी सेवाएं विवरण (Word Document)',
       description: lang === 'en'
         ? 'Detailed practice overview covering Debt Syndication, TEV Feasibility Studies, Regulatory Valuations, and Stressed Asset (IBC/OTS) Resolutions.'
         : 'डेट सिंडिकेशन, TEV स्टडीज, मूल्यांकन और तनावग्रस्त परिसंपत्ति समाधान पर विस्तृत विवरण।',
-      fileSize: 'PDF • Capability Presentation',
-      path: 'service_pdfs/Corporate_Services_Capability_Deck.pdf',
+      fileSize: 'DOCX • Official Services Overview',
+      path: 'service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx',
       icon: Briefcase
     }
   ];

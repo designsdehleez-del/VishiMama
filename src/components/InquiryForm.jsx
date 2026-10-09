@@ -32,15 +32,15 @@ export default function InquiryForm({ data, lang }) {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F5F2EB] border border-[#D6CEC0] text-xs font-bold text-[#B45309] uppercase tracking-wider">
-            {lang === 'en' ? 'Direct Principal Advisory Consultation' : 'प्रत्यक्ष परामर्श संपर्क'}
+            {lang === 'en' ? 'Direct Principal Consultancy Contact' : 'प्रत्यक्ष कंसल्टेंसी संपर्क'}
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C1917] tracking-tight">
-            {lang === 'en' ? 'Initiate a Corporate Mandate Discussion' : 'कॉर्पोरेट परामर्श के लिए संपर्क करें'}
+            {lang === 'en' ? 'Initiate a Corporate Mandate Discussion' : 'कॉर्पोरेट कंसल्टेंसी के लिए संपर्क करें'}
           </h2>
           <p className="text-base sm:text-lg text-[#57534E]">
             {lang === 'en'
-              ? 'Connect directly with Vishwanath Sharma for confidential debt syndication, TEV studies, regulatory valuation, or turnaround advisory.'
-              : 'ऋण सिंडिकेशन, TEV स्टडीज, मूल्यांकन या टर्नअराउंड सलाह के लिए सीधे संपर्क करें।'}
+              ? 'Connect directly with Vishwanath Sharma for confidential debt syndication, TEV studies, regulatory valuation, or turnaround consultancy.'
+              : 'ऋण सिंडिकेशन, TEV स्टडीज, मूल्यांकन या टर्नअराउंड कंसल्टेंसी के लिए सीधे संपर्क करें।'}
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function InquiryForm({ data, lang }) {
             <div className="bg-[#F5F2EB] rounded-2xl p-6 sm:p-8 border border-[#D6CEC0] shadow-sm space-y-6">
               
               <h3 className="font-serif text-2xl font-bold text-[#1C1917]">
-                {lang === 'en' ? 'Direct Advisory Office' : 'कार्यालय एवं संपर्क'}
+                {lang === 'en' ? 'Direct Consultancy Office' : 'कंसल्टेंसी कार्यालय एवं संपर्क'}
               </h3>
 
               <div className="space-y-4 text-sm text-[#44403C]">
@@ -162,7 +162,7 @@ export default function InquiryForm({ data, lang }) {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   
                   <h3 className="font-serif text-xl font-bold text-[#1C1917]">
-                    {lang === 'en' ? 'Advisory Mandate Inquiry Form' : 'परामर्श पूछताछ फॉर्म'}
+                    {lang === 'en' ? 'Corporate Consultancy Mandate Inquiry Form' : 'कंसल्टेंसी पूछताछ फॉर्म'}
                   </h3>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -230,7 +230,7 @@ export default function InquiryForm({ data, lang }) {
 
                   <div>
                     <label className="block text-xs font-bold text-[#78716C] uppercase tracking-wider mb-1.5">
-                      {lang === 'en' ? 'Primary Advisory Service Required *' : 'आवश्यक सेवा *'}
+                      {lang === 'en' ? 'Primary Consultancy Service Required *' : 'आवश्यक कंसल्टेंसी सेवा *'}
                     </label>
                     <select
                       name="service"
@@ -242,7 +242,7 @@ export default function InquiryForm({ data, lang }) {
                       <option>Techno-Economic Viability (TEV) & Feasibility</option>
                       <option>Valuation & Fairness Opinions</option>
                       <option>Stressed Assets & Insolvency (IBC / OTS)</option>
-                      <option>Equity Advisory & M&A Solutions</option>
+                      <option>Equity Consultancy & M&A Solutions</option>
                       <option>Corporate Training & Masterclasses</option>
                       <option>Audit & Financial Due Diligence</option>
                     </select>

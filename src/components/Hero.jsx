@@ -71,7 +71,7 @@ export default function Hero({ data, lang }) {
               </a>
 
               <a
-                href="cv/Vishwanath_Sharma_CV.pdf"
+                href="cv/Vishwanath_Sharma_CV.docx"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg bg-[#EFECE6] border border-[#D6CEC0] text-[#1C1917] font-medium text-sm hover:bg-[#D6CEC0] transition-colors"
               >
@@ -80,13 +80,12 @@ export default function Hero({ data, lang }) {
               </a>
 
               <a
-                href="service_pdfs/Corporate_Services_Capability_Deck.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
+                download
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg border border-[#B45309] text-[#B45309] font-medium text-sm hover:bg-[#B45309] hover:text-white transition-all"
               >
                 <Briefcase className="w-4 h-4" />
-                <span>{lang === 'en' ? 'Capability Deck (PDF)' : 'कैपेबिलिटी डेक (PDF)'}</span>
+                <span>{lang === 'en' ? 'Services Deck (Word / PDF)' : 'कंसल्टेंसी डेक (Word)'}</span>
               </a>
             </div>
           </div>

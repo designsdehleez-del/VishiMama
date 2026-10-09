@@ -36,10 +36,10 @@ export default function Services({ data, lang }) {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#EFECE6] border border-[#D6CEC0] text-xs font-bold text-[#B45309] uppercase tracking-wider shadow-sm">
-            {lang === 'en' ? 'Core Advisory Practice Areas' : 'मुख्य परामर्श सेवाएं'}
+            {lang === 'en' ? 'Core Financial Consultancy Areas' : 'मुख्य वित्तीय कंसल्टेंसी सेवाएं'}
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1917] tracking-tight">
-            {lang === 'en' ? 'Institutional Corporate Finance & Advisory Services' : 'संस्थागत कॉर्पोरेट वित्त एवं परामर्श सेवाएं'}
+            {lang === 'en' ? 'Institutional Corporate Finance & Consultancy Services' : 'संस्थागत कॉर्पोरेट वित्त एवं कंसल्टेंसी सेवाएं'}
           </h2>
           <p className="text-base sm:text-lg text-[#57534E]">
             {lang === 'en'
@@ -246,21 +246,21 @@ export default function Services({ data, lang }) {
         <div className="mt-16 p-8 rounded-2xl bg-[#1E293B] border border-[#334155] text-[#F8FAFC] flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="space-y-2 text-center md:text-left">
             <h3 className="font-serif text-2xl font-bold">
-              {lang === 'en' ? 'Require Full Capability Deck?' : 'क्या आपको विस्तृत कैपेबिलिटी डेक चाहिए?'}
+              {lang === 'en' ? 'Require Official Consultancy Document?' : 'क्या आपको आधिकारिक कंसल्टेंसी दस्तावेज़ चाहिए?'}
             </h3>
             <p className="text-sm text-[#94A3B8] max-w-2xl">
               {lang === 'en'
-                ? 'Download our comprehensive 2026 Corporate Advisory Services Capability Deck detailing past deal sizes, fee benchmarks, and advisory terms.'
-                : 'पिछली डील साइज़ और परामर्श शर्तों के साथ विस्तृत कॉर्पोरेट सलाहकारी डेक (PDF) डाउनलोड करें।'}
+                ? 'Download our official 2026 Corporate Financial Consultancy Services overview detailing past deal sizes, fee benchmarks, and engagement terms.'
+                : 'पिछली डील साइज़ और शर्तों के साथ विस्तृत कॉर्पोरेट वित्तीय कंसल्टेंसी विवरण (Word Document) डाउनलोड करें।'}
             </p>
           </div>
           <a
-            href="service_pdfs/Corporate_Services_Capability_Deck.pdf"
+            href="service_pdfs/Vishwanath_Sharma_Corporate_Consultancy_Services.docx"
             download
             className="px-6 py-3.5 rounded-lg bg-[#B45309] text-white font-medium text-sm hover:bg-[#92400E] transition-colors shrink-0 flex items-center gap-2 shadow-md"
           >
             <Download className="w-4 h-4" />
-            <span>{lang === 'en' ? 'Download Corporate Capability Deck' : 'कॉर्पोरेट कैपेबिलिटी डेक डाउनलोड करें'}</span>
+            <span>{lang === 'en' ? 'Download Services Document (Word)' : 'कंसल्टेंसी दस्तावेज़ डाउनलोड करें (Word)'}</span>
           </a>
         </div>
 
