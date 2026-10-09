@@ -4,8 +4,8 @@ export const portfolioData = {
       name: "Vishwanath Sharma",
       title: "Senior Corporate Financial Consultant & Investment Advisor",
       tagline: "25+ Years of Institutional Banking Leadership & Corporate Advisory Excellence",
-      photo: "/profile.jpg",
-      boardroomPhoto: "/boardroom.jpg",
+      photo: "profile.jpg",
+      boardroomPhoto: "boardroom.jpg",
       bioParagraphs: [
         "I am a Senior Corporate Financial Consultant and former Banking Regional Leader with over 25 years of institutional executive experience. Throughout my career, I have held senior leadership positions including Regional Head, Cluster Head, and Assistant Vice President across premier institutions such as IndusInd Bank, Kotak Mahindra Bank, HDFC Bank, ICICI Bank, YES Bank, and ESAF Small Finance Bank.",
         "My advisory practice bridges corporate financial strategy with institutional credit requirements. I specialize in high-value Debt Syndications, bankable Techno-Economic Viability (TEV) Studies, Business Valuations under regulatory frameworks, NCLT and IBC Stressed Asset Resolutions, and Financial Audits.",
@@ -297,8 +297,8 @@ export const portfolioData = {
       name: "विश्वनाथ शर्मा",
       title: "वरिष्ठ कॉर्पोरेट वित्तीय सलाहकार एवं निवेश विशेषज्ञ",
       tagline: "25+ वर्षों का बैंकिंग नेतृत्व एवं कॉर्पोरेट परामर्श अनुभव",
-      photo: "/profile.jpg",
-      boardroomPhoto: "/boardroom.jpg",
+      photo: "profile.jpg",
+      boardroomPhoto: "boardroom.jpg",
       bioParagraphs: [
         "मैं एक वरिष्ठ कॉर्पोरेट वित्तीय सलाहकार और पूर्व बैंकिंग क्षेत्रीय प्रमुख हूँ, जिसके पास 25 से अधिक वर्षों का संस्थागत अनुभव है। अपने करियर के दौरान, मैंने इंडसइंड बैंक, कोटक महिंद्रा बैंक, एचडीएफसी बैंक, आईसीआईसीआई बैंक, यस बैंक और एएसएएफ स्मॉल फाइनेंस बैंक जैसे प्रमुख संस्थानों में क्षेत्रीय प्रमुख, क्लस्टर प्रमुख और सहायक उपाध्यक्ष जैसे वरिष्ठ पदों पर कार्य किया है।",
         "मेरा परामर्श कार्य कॉर्पोरेट वित्तीय रणनीति और संस्थागत क्रेडिट आवश्यकताओं के बीच संतुलन स्थापित करता है। मैं उच्च-मूल्य वाले ऋण सिंडिकेशन, बैंक योग्य तकनीकी-आर्थिक व्यवहार्यता (TEV) अध्ययन, नियामक मूल्यांकन, NCLT एवं IBC तनावग्रस्त परिसंपत्ति समाधान और वित्तीय ऑडिट में विशेषज्ञता रखता हूँ।",

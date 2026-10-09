@@ -9,7 +9,7 @@ export default function Downloads({ lang }) {
       title: isHi ? "मेरा कार्यकारी बायोडाटा (CV)" : "My Executive Curriculum Vitae (CV)",
       type: isHi ? "वर्ड दस्तावेज़ (.docx)" : "Word Document (.docx)",
       description: isHi ? "इंडसइंड, कोटक, एचडीएफसी, आईसीआईसीआई, यस बैंक और ईएसएएफ में मेरे 25+ वर्षों के वरिष्ठ बैंकिंग नेतृत्व का विवरण।" : "Comprehensive executive resume detailing my 25+ years senior banking leadership experience across IndusInd, Kotak, HDFC, ICICI, YES Bank, and ESAF.",
-      downloadPath: "/cv/Vishwanath_Sharma_CV.docx",
+      downloadPath: "cv/Vishwanath_Sharma_CV.docx",
       buttonText: isHi ? "कार्यकारी सीवी डाउनलोड करें" : "Download Executive CV",
       icon: FileText,
       badge: isHi ? "सत्यापित प्रोफ़ाइल" : "Verified Profile"
@@ -18,7 +18,7 @@ export default function Downloads({ lang }) {
       title: isHi ? "कॉर्पोरेट सेवाएं एवं क्षमता डेक" : "My Corporate Services & Capability Deck",
       type: isHi ? "पीडीएफ दस्तावेज़ (.pdf)" : "PDF Document (.pdf)",
       description: isHi ? "ऋण सिंडिकेशन, इक्विटी सलाहकार, मूल्यांकन, टीईवी रिपोर्ट, आईबीसी दिवाला और ऑडिट पर संपूर्ण सेवा पोर्टफोलियो।" : "Full service portfolio deck covering my advisory practice across Debt Syndication, Equity Advisory, Valuation, TEV Reports, Insolvency (IBC), Training & Audits.",
-      downloadPath: "/service_pdfs/Corporate_Services_Capability_Deck.pdf",
+      downloadPath: "service_pdfs/Corporate_Services_Capability_Deck.pdf",
       buttonText: isHi ? "क्षमता पीडीएफ डाउनलोड करें" : "Download Capability PDF",
       icon: FileSpreadsheet,
       badge: isHi ? "संस्थागत डेक" : "Institutional Deck"

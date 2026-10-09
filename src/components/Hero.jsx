@@ -64,7 +64,7 @@ export default function Hero({ lang }) {
           </a>
 
           <a
-            href="/cv/Vishwanath_Sharma_CV.docx"
+            href="cv/Vishwanath_Sharma_CV.docx"
             download
             className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-[#FFFFFF] hover:bg-[#EBE6DC] text-[#1C1917] font-medium text-xs sm:text-sm border border-[#E5E0D8] shadow-sm transition-all"
           >
