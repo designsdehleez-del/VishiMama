@@ -63,10 +63,10 @@ export default function Hero({ data, lang }) {
             {/* Call to Action Buttons */}
             <div className="pt-4 flex flex-wrap items-center gap-4">
               <a
-                href="#services"
-                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg bg-[#1C1917] text-[#F5F2EB] font-medium text-sm hover:bg-[#B45309] transition-all shadow-md group"
+                href="#inquiry"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-lg bg-[#B45309] text-white font-bold text-sm hover:bg-[#92400E] transition-all shadow-md group"
               >
-                <span>{lang === 'en' ? 'Explore Advisory Practice' : 'परामर्श सेवाएं देखें'}</span>
+                <span>{lang === 'en' ? 'Initiate Mandate Inquiry' : 'परामर्श पूछताछ शुरू करें'}</span>
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
 

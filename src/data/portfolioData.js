@@ -53,14 +53,10 @@ export const portfolioData = {
     },
 
     navLinks: [
-      { name: 'Home', href: '#home', id: 'home' },
       { name: 'Services', href: '#services', id: 'services' },
-      { name: 'Insights', href: '#insights', id: 'insights' },
-      { name: 'Story', href: '#story', id: 'story' },
       { name: 'Track Record', href: '#track-record', id: 'track-record' },
-      { name: 'Experience', href: '#timeline', id: 'timeline' },
+      { name: 'About & Experience', href: '#story', id: 'story' },
       { name: 'Downloads', href: '#downloads', id: 'downloads' },
-      { name: 'Contact', href: '#inquiry', id: 'inquiry' },
     ],
 
     practiceAreas: [
@@ -346,14 +342,10 @@ export const portfolioData = {
     },
 
     navLinks: [
-      { name: 'होम', href: '#home', id: 'home' },
       { name: 'सेवाएँ', href: '#services', id: 'services' },
-      { name: 'लेख एवं विचार', href: '#insights', id: 'insights' },
-      { name: 'कहानी', href: '#story', id: 'story' },
       { name: 'ट्रैक रिकॉर्ड', href: '#track-record', id: 'track-record' },
-      { name: 'अनुभव', href: '#timeline', id: 'timeline' },
+      { name: 'अनुभव एवं परिचय', href: '#story', id: 'story' },
       { name: 'डाउनलोड', href: '#downloads', id: 'downloads' },
-      { name: 'संपर्क', href: '#inquiry', id: 'inquiry' },
     ],
 
     practiceAreas: [

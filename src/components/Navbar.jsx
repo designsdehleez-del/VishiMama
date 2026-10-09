@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Globe, Download, Phone } from 'lucide-react';
+import { Menu, X, Globe, Download, Send } from 'lucide-react';
 
 export default function Navbar({ lang, setLang, data }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ export default function Navbar({ lang, setLang, data }) {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-[#F5F2EB]/90 backdrop-blur-md border-b border-[#E2DCD0] shadow-sm transition-all duration-200">
+    <header className="sticky top-0 z-50 bg-[#F5F2EB]/95 backdrop-blur-md border-b border-[#E2DCD0] shadow-sm transition-all duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Brand Logo & Title */}
@@ -41,7 +41,7 @@ export default function Navbar({ lang, setLang, data }) {
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-3">
             {/* Language Toggle Button */}
             <button
               onClick={toggleLang}
@@ -52,14 +52,23 @@ export default function Navbar({ lang, setLang, data }) {
               <span>{lang === 'en' ? 'हिंदी (HI)' : 'English (EN)'}</span>
             </button>
 
-            {/* Direct Contact / CV Button */}
+            {/* Direct Advisory Mandate Inquiry Button */}
+            <a
+              href="#inquiry"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#B45309] text-white text-xs font-bold hover:bg-[#92400E] transition-colors shadow-md"
+            >
+              <Send className="w-3.5 h-3.5" />
+              <span>{lang === 'en' ? 'Inquire Mandate' : 'परामर्श पूछताछ'}</span>
+            </a>
+
+            {/* Executive CV Button */}
             <a
               href="cv/Vishwanath_Sharma_CV.pdf"
               download
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1C1917] text-[#F5F2EB] text-xs font-medium hover:bg-[#B45309] transition-colors shadow-sm"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-[#1C1917] text-[#F5F2EB] text-xs font-medium hover:bg-[#B45309] transition-colors shadow-sm"
             >
               <Download className="w-3.5 h-3.5" />
-              <span>{lang === 'en' ? 'Download Executive CV' : 'सीवी डाउनलोड करें'}</span>
+              <span>{lang === 'en' ? 'Executive CV' : 'सीवी'}</span>
             </a>
           </div>
 
@@ -96,6 +105,14 @@ export default function Navbar({ lang, setLang, data }) {
             </a>
           ))}
           <div className="pt-2 flex flex-col gap-2">
+            <a
+              href="#inquiry"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-[#B45309] text-white text-sm font-bold shadow-md"
+            >
+              <Send className="w-4 h-4" />
+              <span>{lang === 'en' ? 'Inquire Mandate Form' : 'परामर्श पूछताछ फॉर्म'}</span>
+            </a>
             <a
               href="cv/Vishwanath_Sharma_CV.pdf"
               download
