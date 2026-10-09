@@ -79,7 +79,7 @@ export const portfolioData = {
           "Leveraged Buyouts (LBOs) & Credit Rating Advisory"
         ],
         targetClients: "Mid-Market Corporates, Infrastructure Developers, Manufacturing Enterprises, PE Portfolio Companies.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "equity-mna",
@@ -96,7 +96,7 @@ export const portfolioData = {
           "Term Sheet Negotiation & Investor Readiness Structuring"
         ],
         targetClients: "High-Growth Startups, Enterprise Promoters, PE Investors, Corporate Buyers.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "valuation-services",
@@ -113,7 +113,7 @@ export const portfolioData = {
           "Brand & Intangible Asset Valuation"
         ],
         targetClients: "CFOs, Tax Directors, PE/VC Investors, Auditors, Regulatory Bodies.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "tev-feasibility",
@@ -130,7 +130,7 @@ export const portfolioData = {
           "Detailed Project Report (DPR) Preparation for Bank Approvals"
         ],
         targetClients: "Commercial Banks, Consortium Lenders, Project Promoters, Infrastructure Funds.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "stressed-assets-ibc",
@@ -147,7 +147,7 @@ export const portfolioData = {
           "Liquidation Management & Stressed Asset Buying Advisory"
         ],
         targetClients: "Stressed Enterprises, Resolution Professionals (RPs), ARC Companies, Lenders.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "corporate-training",
@@ -164,7 +164,7 @@ export const portfolioData = {
           "1-on-1 Executive Coaching for CFOs and Finance Controllers"
         ],
         targetClients: "Banks, NBFCs, Corporate Finance Teams, Industry Associations.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "audit-due-diligence",
@@ -181,7 +181,7 @@ export const portfolioData = {
           "Compliance Verification & KYC Validation for Institutional Lenders"
         ],
         targetClients: "Acquirers, PE Funds, Corporate Boards, Financial Regulators.",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       }
     ],
 
@@ -372,7 +372,7 @@ export const portfolioData = {
           "लीवरेज्ड बायआउट्स (LBOs) एवं क्रेडिट रेटिंग परामर्श"
         ],
         targetClients: "मध्य-बाजार कॉर्पोरेट्स, इंफ्रास्ट्रक्चर डेवलपर्स, विनिर्माण उद्यम, पीई पोर्टफोलियो कंपनियां।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "equity-mna",
@@ -389,7 +389,7 @@ export const portfolioData = {
           "टर्म शीट बातचीत और निवेशक तत्परता संरचना"
         ],
         targetClients: "उच्च-विकास वाले स्टार्टअप, उद्यम प्रमोटर, पीई निवेशक, कॉर्पोरेट खरीदार।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "valuation-services",
@@ -406,7 +406,7 @@ export const portfolioData = {
           "ब्रांड और अमूर्त परिसंपत्ति मूल्यांकन"
         ],
         targetClients: "सीएफओ, टैक्स निदेशक, पीई/वीसी निवेशक, लेखा परीक्षक, नियामक निकाय।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "tev-feasibility",
@@ -423,7 +423,7 @@ export const portfolioData = {
           "बैंक स्वीकृतियों के लिए विस्तृत परियोजना रिपोर्ट (DPR) की तैयारी"
         ],
         targetClients: "वाणिज्यिक बैंक, कंसोर्टियम ऋणदाता, परियोजना प्रमोटर, इंफ्रास्ट्रक्चर फंड।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "stressed-assets-ibc",
@@ -440,7 +440,7 @@ export const portfolioData = {
           "समापन प्रबंधन एवं तनावग्रस्त परिसंपत्ति खरीद परामर्श"
         ],
         targetClients: "तनावग्रस्त उद्यम, समाधान पेशेवर (RPs), एआरसी कंपनियां, ऋणदाता।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "corporate-training",
@@ -457,7 +457,7 @@ export const portfolioData = {
           "सीएफओ और वित्त नियंत्रकों के लिए व्यक्तिगत कार्यकारी कोचिंग"
         ],
         targetClients: "बैंक, एनबीएफसी, कॉर्पोरेट वित्त टीमें, उद्योग संघ।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       },
       {
         id: "audit-due-diligence",
@@ -474,7 +474,7 @@ export const portfolioData = {
           "संस्थागत ऋणदाताओं के लिए अनुपालन सत्यापन एवं केवाईसी सत्यापन"
         ],
         targetClients: "अधिग्रहणकर्ता, पीई फंड, कॉर्पोरेट बोर्ड, वित्तीय नियामक।",
-        pdfLink: "/service_pdfs/Corporate_Services_Capability_Deck.pdf"
+        pdfLink: "service_pdfs/Corporate_Services_Capability_Deck.pdf"
       }
     ],
 
@@ -542,7 +542,7 @@ export const portfolioData = {
         role: "शाखा प्रमुख एवं क्षेत्रीय प्रबंधक (व्यापार एवं एनआर)",
         company: "एचडीएफसी बैंक / सेंट्यूरियन बैंक ऑफ पंजाब",
         location: "गुजरात क्लस्टर",
-        details: "मैंने क्लस्टर बैलेंस शीट का विस्तार किया, व्यापार वित्त और एनआर उत्पादों पर नेटवर्क प्रशिक्षण आयोजित किया, और सिक्स सिग्मा परिचालन नियंत्रण लागू किया।"
+        details: "मैंने क्लस्टर balance sheet का विस्तार किया, व्यापार वित्त और एनआर उत्पादों पर नेटवर्क प्रशिक्षण आयोजित किया, और सिक्स सिग्मा परिचालन नियंत्रण लागू किया।"
       },
       {
         period: "जून 2001 - दिसंबर 2003",
@@ -573,14 +573,14 @@ export const portfolioData = {
         category: "संस्थागत बैंकिंग",
         institution: "इंडसइंड बैंक - गुजरात",
         achievement: "मैंने वडोदरा, राजकोट, सूरत, वापी और वलसाड सहित 5 प्रमुख जिलों में जीबीजी व्यवसाय वृद्धि का नेतृत्व किया।",
-        impact: "प्रमुख सार्वजनिक क्षेत्र के खातों के लिए प्राथमिक बैंकिंग दर्जा सुरक्षित किया।"
+        impact: "प्रमुख सार्वजनिक क्षेत्र के खातों के लिए प्राथमिक बैंकिंग स्थिति हासिल की।"
       },
       {
         title: "कॉर्पोरेट ऋण एवं तनावग्रस्त परिसंपत्ति समाधान",
-        category: "परामर्श एवं पुनर्गठन",
+        category: "सलाहकार एवं पुनर्गठन",
         institution: "सलाहकार जनादेश",
-        achievement: "मैंने प्रमोटर ऋण पुनर्गठन, ओटीएस निपटान और बैंक योग्य टीईवी रिपोर्ट प्रस्तुतियों के लिए अंत-से-अंत परामर्श प्रदान किया।",
-        impact: "ऋणदाता अनुपालन हासिल करते हुए ग्राहक के फ्रैंचाइज़ी मूल्य की रक्षा की।"
+        achievement: "मैंने प्रमोटर ऋण पुनर्गठन, ओटीएस निपटान और बैंक योग्य टीईवी रिपोर्ट प्रस्तुत करने के लिए शुरू से अंत तक परामर्श प्रदान किया।",
+        impact: "ऋणदाता अनुपालन हासिल करते हुए ग्राहक के मताधिकार मूल्य की रक्षा की।"
       }
     ]
   }
