@@ -1,47 +1,96 @@
 import React from 'react';
-import { portfolioData } from '../data/portfolioData';
+import { GraduationCap, Award, Quote, CheckCircle2 } from 'lucide-react';
 
-export default function Story({ lang }) {
-  const content = portfolioData[lang].personalInfo;
-  const story = content.executiveStory;
+export default function Story({ data, lang }) {
+  const { personalInfo } = data;
+  const { executiveStory, academics, certifications } = personalInfo;
 
   return (
-    <section id="story" className="py-14 md:py-18 bg-[#F5F2EB] border-b border-[#E5E0D8]">
-      <div className="site-container">
+    <section id="story" className="py-16 md:py-24 bg-[#EFECE6] border-y border-[#D6CEC0]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Label */}
-        <span className="section-label">
-          {lang === 'hi' ? 'कार्यकारी कहानी एवं परामर्श दर्शन' : 'Executive Story & Advisory Philosophy'}
-        </span>
-
-        <h2 className="text-2xl sm:text-3xl font-serif font-extrabold text-[#1C1917] mb-6">
-          {story.title}
-        </h2>
-
-        {/* Boardroom Photo Wrapper */}
-        <div className="w-full rounded-xl overflow-hidden border border-[#E5E0D8] shadow-md mb-8">
-          <img
-            src={content.boardroomPhoto}
-            alt="Vishwanath Sharma conducting corporate financial advisory meeting"
-            className="w-full h-auto object-cover max-h-[420px]"
-          />
+        {/* Section Tag */}
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F5F2EB] border border-[#D6CEC0] text-xs font-bold text-[#B45309] uppercase tracking-wider">
+            {lang === 'en' ? 'Executive Philosophy & Story' : 'कार्यकारी दर्शन एवं अनुभव'}
+          </div>
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C1917] tracking-tight mt-3">
+            {executiveStory.title}
+          </h2>
         </div>
 
-        {/* Inspiring Quote Callout */}
-        <blockquote className="now-block mb-8">
-          <p className="text-base sm:text-lg font-serif italic text-[#1C1917] leading-relaxed mb-2">
-            "{story.quote}"
-          </p>
-          <footer className="text-xs font-bold uppercase tracking-wider text-[#B45309] font-sans">
-            — {content.name}
-          </footer>
-        </blockquote>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          {/* Left Column (6 cols): Boardroom Image */}
+          <div className="lg:col-span-6 space-y-4">
+            <div className="relative rounded-2xl overflow-hidden border-2 border-[#D6CEC0] shadow-xl bg-[#F5F2EB]">
+              <img
+                src={personalInfo.boardroomPhoto}
+                alt="Vishwanath Sharma Boardroom Advisory"
+                className="w-full h-auto object-cover object-center max-h-[440px]"
+                loading="lazy"
+              />
+              <div className="p-4 bg-[#1C1917] text-[#F5F2EB] text-xs font-medium">
+                {lang === 'en'
+                  ? 'Vishwanath Sharma presiding over corporate credit advisory & banking committee discussions.'
+                  : 'विश्वनाथ शर्मा कॉर्पोरेट क्रेडिट और बैंकिंग समिति की बैठकों की अध्यक्षता करते हुए।'}
+              </div>
+            </div>
 
-        {/* Narrative Paragraphs */}
-        <div className="space-y-4 text-[#38342F] text-base leading-[1.75] font-sans">
-          {story.paragraphs.map((p, idx) => (
-            <p key={idx}>{p}</p>
-          ))}
+            {/* Featured Quote Card */}
+            <div className="p-6 rounded-2xl bg-[#F5F2EB] border border-[#D6CEC0] relative shadow-sm">
+              <Quote className="w-8 h-8 text-[#B45309]/30 absolute top-4 left-4" />
+              <p className="font-serif text-base sm:text-lg italic text-[#1C1917] relative z-10 pl-6 border-l-2 border-[#B45309]">
+                "{executiveStory.quote}"
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column (6 cols): Story Paragraphs & Education */}
+          <div className="lg:col-span-6 space-y-8">
+            
+            {/* Story Paragraphs */}
+            <div className="space-y-4 text-[#44403C] leading-relaxed text-base sm:text-lg">
+              {executiveStory.paragraphs.map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
+
+            {/* Academic Credentials */}
+            <div className="space-y-4 pt-4 border-t border-[#D6CEC0]">
+              <div className="flex items-center gap-2 text-sm font-bold text-[#1C1917] uppercase tracking-wider">
+                <GraduationCap className="w-5 h-5 text-[#B45309]" />
+                <span>{lang === 'en' ? 'Academic Background:' : 'शैक्षणिक पृष्ठभूमि:'}</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {academics.map((edu, idx) => (
+                  <div key={idx} className="p-4 rounded-xl bg-[#F5F2EB] border border-[#D6CEC0]">
+                    <div className="font-serif font-bold text-[#1C1917] text-base">{edu.degree}</div>
+                    <div className="text-xs text-[#57534E] font-medium">{edu.institution}</div>
+                    <div className="text-xs text-[#78716C] mt-1">{edu.year}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Executive Certifications */}
+            <div className="space-y-3 pt-2">
+              <div className="flex items-center gap-2 text-sm font-bold text-[#1C1917] uppercase tracking-wider">
+                <Award className="w-5 h-5 text-[#B45309]" />
+                <span>{lang === 'en' ? 'Leadership & Risk Certifications:' : 'नेतृत्व एवं प्रमाणन:'}</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {certifications.map((cert, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-xs font-medium text-[#44403C] p-2.5 rounded-lg bg-[#F5F2EB] border border-[#D6CEC0]">
+                    <CheckCircle2 className="w-4 h-4 text-[#B45309] shrink-0" />
+                    <span>{cert}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
       </div>

@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173",
     "build": "vite build",
+    "standalone": "node scripts/bundle-standalone.mjs",
+    "build:all": "vite build && node scripts/bundle-standalone.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { portfolioData } from './data/portfolioData';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -12,21 +13,22 @@ import Footer from './components/Footer';
 
 export default function App() {
   const [lang, setLang] = useState('en');
+  const data = portfolioData[lang];
 
   return (
-    <div className="min-h-screen bg-[#F5F2EB] text-[#38342F] selection:bg-[#1C1917] selection:text-[#FFFFFF]">
-      <Navbar lang={lang} setLang={setLang} />
+    <div className="min-h-screen bg-[#F5F2EB] text-[#1C1917] font-sans selection:bg-[#B45309] selection:text-white">
+      <Navbar lang={lang} setLang={setLang} data={data} />
       <main>
-        <Hero lang={lang} />
-        <Services lang={lang} />
-        <Insights lang={lang} />
-        <Story lang={lang} />
-        <TrackRecord lang={lang} />
-        <Timeline lang={lang} />
-        <Downloads lang={lang} />
-        <InquiryForm lang={lang} />
+        <Hero data={data} lang={lang} />
+        <Services data={data} lang={lang} />
+        <Insights data={data} lang={lang} />
+        <Story data={data} lang={lang} />
+        <TrackRecord data={data} lang={lang} />
+        <Timeline data={data} lang={lang} />
+        <Downloads data={data} lang={lang} />
+        <InquiryForm data={data} lang={lang} />
       </main>
-      <Footer lang={lang} />
+      <Footer data={data} lang={lang} />
     </div>
   );
 }

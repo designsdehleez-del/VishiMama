@@ -1,96 +1,71 @@
 import React from 'react';
-import { Briefcase, MapPin, GraduationCap } from 'lucide-react';
-import { portfolioData } from '../data/portfolioData';
+import { Briefcase, Building2, MapPin, Calendar } from 'lucide-react';
 
-export default function Timeline({ lang }) {
-  const content = portfolioData[lang];
-  const careerTimeline = content.careerTimeline;
-  const academics = content.personalInfo.academics;
-  const certifications = content.personalInfo.certifications;
+export default function Timeline({ data, lang }) {
+  const { careerTimeline } = data;
 
   return (
-    <section id="timeline" className="py-14 md:py-18 bg-[#F5F2EB] border-b border-[#E5E0D8]">
-      <div className="site-container">
+    <section id="timeline" className="py-16 md:py-24 bg-[#EFECE6] border-y border-[#D6CEC0]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <span className="section-label font-sans">
-          {lang === 'hi' ? 'संस्थागत कार्य इतिहास एवं शिक्षा' : 'Institutional Work History & Education'}
-        </span>
-        <h2 className="text-2xl sm:text-3xl font-serif font-extrabold text-[#1C1917] mb-2">
-          {lang === 'hi' ? '25+ वर्षों का बैंकिंग नेतृत्व' : '25+ Years Banking Leadership'}
-        </h2>
-        <p className="text-[#7A7368] text-sm sm:text-base mb-8 font-sans">
-          {lang === 'hi' 
-            ? 'इंडसइंड बैंक, कोटक महिंद्रा बैंक, एचडीएफसी बैंक, आईसीआईसीआई बैंक, यस बैंक और एएसएएफ में वरिष्ठ कार्यकारी नेतृत्व।'
-            : 'Senior executive leadership roles across IndusInd Bank, Kotak Mahindra Bank, HDFC Bank, ICICI Bank, YES Bank, and ESAF.'}
-        </p>
-
-        {/* Work List matching vikaschoudhary.vercel.app work-list */}
-        <div className="space-y-5 mb-12">
-          {careerTimeline.map((item, index) => (
-            <article key={index} className="work-card">
-              
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-1">
-                <h3 className="text-lg font-serif font-bold text-[#1C1917]">
-                  {item.company}
-                </h3>
-                <span className="text-xs font-semibold text-[#B45309] font-sans">
-                  {item.period}
-                </span>
-              </div>
-
-              <div className="text-xs font-semibold text-[#1C1917] mb-3 flex items-center gap-2 font-sans">
-                <Briefcase className="w-3.5 h-3.5 text-[#B45309]" />
-                <span>{item.role}</span>
-                <span className="text-[#7A7368]">•</span>
-                <span className="text-xs text-[#7A7368] flex items-center gap-1 font-normal">
-                  <MapPin className="w-3 h-3 text-[#7A7368]" />
-                  {item.location}
-                </span>
-              </div>
-
-              <p className="text-sm text-[#38342F] leading-relaxed mb-4 font-sans">
-                {item.details}
-              </p>
-
-              <div className="flex flex-wrap items-center gap-1.5 pt-2 border-t border-[#E5E0D8]">
-                <span className="tag-pill">{lang === 'hi' ? 'कार्यकारी नेतृत्व' : 'Executive Leadership'}</span>
-                <span className="tag-pill">{lang === 'hi' ? 'पी एंड एल स्वामित्व' : 'P&L Ownership'}</span>
-                <span className="tag-pill">{lang === 'hi' ? 'संस्थागत परामर्श' : 'Institutional Advisory'}</span>
-              </div>
-
-            </article>
-          ))}
+        <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F5F2EB] border border-[#D6CEC0] text-xs font-bold text-[#B45309] uppercase tracking-wider">
+            {lang === 'en' ? '25+ Years Institutional Leadership' : '25+ वर्षों का बैंकिंग नेतृत्व'}
+          </div>
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1C1917] tracking-tight">
+            {lang === 'en' ? 'Executive Banking Career Timeline' : 'कार्यकारी बैंकिंग करियर टाइमलाइन'}
+          </h2>
+          <p className="text-base sm:text-lg text-[#57534E]">
+            {lang === 'en'
+              ? 'A distinguished trajectory across India’s premier financial institutions, driving balance sheet growth, branch networks, and institutional advisory.'
+              : 'भारत के प्रमुख वित्तीय संस्थानों में एक प्रतिष्ठित करियर पथ।'}
+          </p>
         </div>
 
-        {/* Education Section placed near bottom */}
-        <div className="work-card">
-          <div className="flex items-center gap-3 pb-3 border-b border-[#E5E0D8] mb-4">
-            <GraduationCap className="w-5 h-5 text-[#B45309]" />
-            <h3 className="text-lg font-serif font-bold text-[#1C1917]">
-              {lang === 'hi' ? 'शैक्षणिक योग्यता एवं प्रमाणपत्र' : 'Academic Qualifications & Certifications'}
-            </h3>
-          </div>
+        {/* Timeline Items */}
+        <div className="relative max-w-4xl mx-auto pl-6 sm:pl-8 border-l-2 border-[#D6CEC0] space-y-12">
+          {careerTimeline.map((item, idx) => (
+            <div key={idx} className="relative group">
+              
+              {/* Timeline Dot Icon */}
+              <div className="absolute -left-[31px] sm:-left-[39px] top-1.5 w-6 h-6 rounded-full bg-[#1C1917] border-4 border-[#EFECE6] group-hover:bg-[#B45309] transition-colors" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
-            {academics.map((edu, idx) => (
-              <div key={idx} className="p-3 rounded-md bg-[#F5F2EB] border border-[#E5E0D8]">
-                <div className="font-semibold text-[#1C1917] text-xs sm:text-sm">{edu.degree}</div>
-                <div className="text-xs text-[#7A7368] flex justify-between mt-1">
-                  <span>{edu.institution}</span>
-                  <span className="font-medium text-[#1C1917]">{edu.year}</span>
+              {/* Timeline Content Card */}
+              <div className="bg-[#F5F2EB] rounded-2xl p-6 sm:p-8 border border-[#D6CEC0] shadow-sm hover:shadow-md hover:border-[#B45309] transition-all space-y-3">
+                
+                {/* Period & Location Badge */}
+                <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-semibold text-[#78716C]">
+                  <span className="flex items-center gap-1 text-[#B45309]">
+                    <Calendar className="w-3.5 h-3.5" />
+                    {item.period}
+                  </span>
+                  <span className="flex items-center gap-1">
+                    <MapPin className="w-3.5 h-3.5 text-[#B45309]" />
+                    {item.location}
+                  </span>
                 </div>
-              </div>
-            ))}
-          </div>
 
-          <div className="flex flex-wrap gap-1.5 pt-2">
-            {certifications.map((cert, idx) => (
-              <span key={idx} className="tag-pill">
-                {cert}
-              </span>
-            ))}
-          </div>
+                {/* Role Title */}
+                <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#1C1917] group-hover:text-[#B45309] transition-colors">
+                  {item.role}
+                </h3>
+
+                {/* Institution Name */}
+                <div className="flex items-center gap-2 text-sm font-bold text-[#44403C]">
+                  <Building2 className="w-4 h-4 text-[#B45309]" />
+                  <span>{item.company}</span>
+                </div>
+
+                {/* Scope & Details */}
+                <p className="text-sm text-[#57534E] leading-relaxed pt-1">
+                  {item.details}
+                </p>
+
+              </div>
+
+            </div>
+          ))}
         </div>
 
       </div>
