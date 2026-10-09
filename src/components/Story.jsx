@@ -38,9 +38,11 @@ export default function Story({ data, lang }) {
             </div>
 
             {/* Featured Quote Card */}
-            <div className="p-6 rounded-2xl bg-[#F5F2EB] border border-[#D6CEC0] relative shadow-sm">
-              <Quote className="w-8 h-8 text-[#B45309]/30 absolute top-4 left-4" />
-              <p className="font-serif text-base sm:text-lg italic text-[#1C1917] relative z-10 pl-6 border-l-2 border-[#B45309]">
+            <div className="p-6 sm:p-7 rounded-2xl bg-[#F5F2EB] border border-[#D6CEC0] shadow-sm flex items-start gap-4">
+              <div className="w-10 h-10 rounded-xl bg-[#EFECE6] text-[#B45309] flex items-center justify-center border border-[#D6CEC0] shrink-0 mt-0.5">
+                <Quote className="w-5 h-5" />
+              </div>
+              <p className="font-sans font-medium text-base sm:text-lg text-[#1C1917] leading-relaxed">
                 "{executiveStory.quote}"
               </p>
             </div>
