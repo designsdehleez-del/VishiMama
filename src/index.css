@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F2EB;
+    color: #38342F;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.75;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Top Accent Bar matching vikaschoudhary.vercel.app */
+.top-bar {
+  height: 3px;
+  background: linear-gradient(90deg, #1C1917 0%, #B45309 50%, #1C1917 100%);
+  width: 100%;
+}
+
+/* Section Label matching vikaschoudhary.vercel.app screenshot */
+.section-label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.725rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #7A7368;
+  margin-bottom: 1.25rem;
+}
+
+/* Photo Wrapper matching vikaschoudhary.vercel.app hero__photo-wrapper */
+.hero__photo-wrapper {
+  max-width: 320px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 16px 36px -6px rgba(28, 25, 23, 0.14), 0 4px 12px -2px rgba(28, 25, 23, 0.08);
+  margin-bottom: 2rem;
+  background-color: #E5E0D8;
+}
+
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.4s ease;
+}
+
+.hero__photo:hover {
+  transform: scale(1.02);
+}
+
+/* Tag Pill matching vikaschoudhary.vercel.app */
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #38342F;
+  background-color: #EBE6DC;
+  border: 1px solid #DDD7CC;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.tag-pill:hover {
+  background-color: #DDD7CC;
+  color: #1C1917;
+}
+
+/* Section Container */
+.site-container {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* Work / Experience Card matching vikaschoudhary.vercel.app work-item */
+.work-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E0D8;
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  box-shadow: 0 2px 12px -2px rgba(28, 25, 23, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.work-card:hover {
+  border-color: #D6CEC0;
+  box-shadow: 0 10px 24px -4px rgba(28, 25, 23, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Currently / Highlight Box matching vikaschoudhary.vercel.app now-block */
+.now-block {
+  background-color: #EBE6DC;
+  border-left: 3px solid #B45309;
+  padding: 1.25rem 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+  margin-top: 2rem;
+}
+
+.now-block__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #B45309;
+  margin-bottom: 0.35rem;
+}
+
+.now-block__text {
+  font-size: 0.925rem;
+  color: #1C1917;
+  line-height: 1.6;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6CEC0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1C1917;
+}
