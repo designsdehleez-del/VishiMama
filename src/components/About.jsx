@@ -1,8 +1,10 @@
 import React from 'react';
 import { GraduationCap, Mail, Phone, MapPin, CheckCircle2 } from 'lucide-react';
-import { personalInfo } from '../data/portfolioData';
+import { portfolioData } from '../data/portfolioData';
 
-export default function About() {
+export default function About({ lang = 'en' }) {
+  const personalInfo = portfolioData[lang].personalInfo;
+
   return (
     <section id="about" className="py-14 md:py-18 bg-[#F5F2EB] border-b border-[#E5E0D8]">
       <div className="site-container">
@@ -14,9 +16,9 @@ export default function About() {
         </h2>
 
         <div className="space-y-4 text-[#38342F] text-base leading-[1.75] mb-8 font-sans">
-          <p>
-            With a career spanning 25+ years across top Indian financial institutions, I provide high-impact corporate financial advisory. My domain expertise covers credit risk, debt syndication, valuation frameworks, regulatory compliance under RBI and Income Tax, and debt resolution under the Insolvency & Bankruptcy Code (IBC).
-          </p>
+          {personalInfo.bioParagraphs.map((p, idx) => (
+            <p key={idx}>{p}</p>
+          ))}
         </div>
 
         {/* Strategic Pillars */}
